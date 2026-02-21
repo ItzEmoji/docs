@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/getting-started' },
-      { text: 'Installer', link: '/installer' }
+      { text: 'Repositories', link: '/repositories' }
     ],
 
     sidebar: [
@@ -17,7 +17,8 @@ export default defineConfig({
         text: 'Introduction',
         items: [
           { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Flake Structure', link: '/flake-structure' }
+          { text: 'Flake Structure', link: '/flake-structure' },
+          { text: 'Repositories', link: '/repositories' }
         ]
       },
       {
@@ -30,7 +31,8 @@ export default defineConfig({
       {
         text: 'Tools',
         items: [
-          { text: 'NixOS Installer', link: '/installer' }
+          { text: 'NixOS Installer', link: '/installer' },
+          { text: 'Neovim Configuration', link: '/neovim' }
         ]
       }
     ],
