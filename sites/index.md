@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "My NixOS-Dotfiles"
-  text: "This is the Documentation of my NixOS-Dotfiles."
-  tagline: My great project tagline
+  name: "NixOS-Dotfiles"
+  text: "A modular NixOS configuration framework"
+  tagline: Build reproducible NixOS systems with flake-parts, import-tree, and composable modules.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/ItzEmoji/nixos-dotfiles
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Modular Architecture
+    details: Every piece of configuration is a standalone module — nixosModules for system-level config and homeManagerModules for user-level config. Mix and match per host.
+  - title: Zero Boilerplate
+    details: Powered by flake-parts and import-tree. Drop a .nix file anywhere under modules/ and it is automatically discovered and registered as a flake output.
+  - title: TUI Installer
+    details: A Rust-based terminal installer walks you through disk partitioning, module selection, and user creation — then runs nixos-install with your flake.
 ---
-
