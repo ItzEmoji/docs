@@ -35,6 +35,15 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'INEP5TS7QE',
+        apiKey: '662f2b23880c64979f8ebdc859b84396',
+        indexName: 'docs_itzemoji_com_inep5ts7qe_pages'
+      }
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ItzEmoji/nixos-dotfiles' }
     ]
