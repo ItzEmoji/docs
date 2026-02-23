@@ -76,11 +76,21 @@ See: [Neovim Configuration](/neovim)
 
 ### nixos-images
 
-Custom NixOS ISO images. This repository is **GitHub-only** and is not mirrored to other platforms.
+Custom NixOS images built from a single configuration and exported to 26 formats — ISOs, cloud images, VM images, containers, and netboot. CI automatically builds the installer ISO and netboot artifacts on every push and publishes them as GitHub releases. This repository is **GitHub-only** and is not mirrored to other platforms.
 
 | Platform | Link |
 |----------|------|
 | GitHub | [ItzEmoji/nixos-images](https://github.com/ItzEmoji/nixos-images) |
+
+```bash
+# Download the ISO
+wget https://github.com/ItzEmoji/nixos-images/releases/latest/download/nixos-installer.iso
+
+# Or netboot via iPXE
+chain https://github.com/ItzEmoji/nixos-images/releases/latest/download/netboot.ipxe
+```
+
+See: [NixOS Images](/nixos-images)
 
 ## Binary Cache
 

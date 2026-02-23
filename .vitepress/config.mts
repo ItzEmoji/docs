@@ -32,6 +32,7 @@ export default defineConfig({
         text: 'Tools',
         items: [
           { text: 'NixOS Installer', link: '/installer' },
+          { text: 'NixOS Images', link: '/nixos-images' },
           { text: 'Neovim Configuration', link: '/neovim' }
         ]
       }
