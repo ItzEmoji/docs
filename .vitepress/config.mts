@@ -41,9 +41,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'INEP5TS7QE',
-        apiKey: '662f2b23880c64979f8ebdc859b84396',
-        indexName: 'docs_itzemoji_com_inep5ts7qe_pages'
+        appId: '36ZUKKG5BG',
+        apiKey: 'c6aa0ba0ec27e90dffc194753e2e43ad',
+        indexName: 'My NixOS-Dotfiles'
       }
     },
 
